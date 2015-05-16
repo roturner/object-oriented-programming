@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Nanodegree Notes </title>
+		<link rel="stylesheet" type="text/css" href="RolandProject.css">
+	</head>
+	<body class="body">
+		<h1>Udacity Notes</h1>
+		<hr>
+		<h2 class="title"> Stage 1 </h2>
+		<div class="content">
+			<h4> The Internet </h4>
+			<p>
+				The World Wide Web (WWW) is a collection of HTML (hypertext markup language) that glues everything together via hyperlinks. A browser, such as google chrome, make requests via the internet, the world's largest comuter network, using http, the main protocol of the web, to servers, computers that host the files that make up the web.
+			</p>
+			<div>
+				<em>HTML is the heart of the web.</em> It is made up of:
+				<ul> 
+					<li>text content (what you see).</li>
+					<li>markup (what it looks like).</li>
+					<li>references to other documents (such as images or links to other pages).</li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<h4> Tags </h4>
+			<p>
+				When coding, tags are used to tell the computer what to do. It is important that the code is accurate, because a computer can't do anything if there are any mistakes. Computers cannot assume what you <em>meant</em> to write.
+			</p>
+			<p>
+				Tags tell the computer whether to make text bold or italicized, whether to put the text into a paragraph, and controls spacing in between the lines of text. A tag consists of a command, such as "div", within lesser-than and a greater-than symbols. Some tags are called void tags because they do not require a closing tag. One such example is the "img" tag, used for inserting an image. Alternate text is usually required when writing this tag in case someone is blind, or the image file does not exist anymore.
+			</p>
+		</div>
+		<div class="content">
+			<h4> Cascading Style Sheets </h4>
+			<p>
+				Cascading style sheets, or CSS, determines the styling of the HTML. With CSS, you can change text fonts, backround colors, create bullet points, and set dimesions of your page's boxes. CSS is important in making your web page look pleasing to the user's eye.
+			</p>
+			<p>
+				When using CSS, the code works similar to how a country's laws work. The national law applies to all people within those parameters. The state law applies to all people within that state, but not everyone in the country. A county law applies to everyone in that county, but not all the people within the state or country. But no matter what rules your county uses, everyoneone still has to follow the national rules. 
+			</p>
+			<p>
+				The same idea applies to CSS code. A code can apply to everything within a parameter, and then there can be more specific code inside of those defined borders, but all code must still follow the most general rules.
+			</p>
+			<h4> Repetition </h4>
+			<p>
+				It is very important to refrain from repetition while coding. All code written should be as simple as possible, and all repeating styling can be explained to the computer program through CSS. The programming language Python also provides coders with multiple ways to avoid repitition. This will be explained in stage 2.
+			</p>
+		</div>
+			<h4>Box Positioning</h4>
+			<p>
+				When coding for a webpage, the coder will be given a design mock, a template for what the webpage should look like. With the design mock in sight, code, test, and refine, until your webpage looks just like the design mock. The steps to code for a design mock are:
+			</p>
+				<ol type="1">
+					<li>Get the structure down, using the red borders.</li>
+					<li>Insert the needed tags (heading, ect.)</li>
+					<li>Code the sizes of the boxes on your page</li>
+					<li>Complete the layout of how you want the page to look</li>
+					<li>Lastly, focus on the smaller details.</li>
+				</ol>
+		<hr>
+		<h2 class="title"> Stage 2 </h2>
+		<div class="content">
+			<h4>Programming Languages</h4>
+			<p>
+				Computer programming languages were invented for two main reasons:
+			</p>
+				<ul>
+					<li>Ambiguity</li>
+					<li>Verbosity</li>
+				</ul>	
+			<p>
+				First, ambiguity is important because developed languages can be interpreted different ways to separate people, whereas a computer can only interpret things literally. If you accidentally spell something wrong in code, there is no leeway in the meaning of your code, the computer will not understand the instructions that you wrote for it. For this reason, computer code is explicit, rather than ambiguous.
+			</p>
+			<p>
+				Second, verbosity. If we had to use natural language in programming, there would be way too much text in the code. Computer programming languages were purposly created with brief tags and text. This way, more can be accomplished in less time, and with less text.
+			</p>
+			<h4>Python</h4>
+			<p>
+				Python is one example of an object oriented computer program. When you write code for this program, you are writing instructions for the Python Interpreter to convert into instructions that the computer will execute. It requires a specific syntax; with even just a minor typo, the interpreter will not be able to carry out the conversion properly.
+			</p>
+			<p>
+				Using basic arithmetic, Python "expressions" give the correct instructions in order to execute the program. Using this basic arithmetic and variables, a word or phrase that represents a given equation, you can begin to make Python do more complicated things.
+			</p>
+			<p>
+				When writing strings, always enclose them using single('') or double quotes(""), otherwise they could be interpreted as a variable. It is important that you close the string with the same type of quotes you used to open it! (eg. 'hats', <em>not</em> 'hats"). 
+			</p>	
+			<p>
+				There are a few usful tools while using strings. One is the <em>concatenation</em> of strings, or adding the strings using the '+' symbol. This allows you to put words, symbols, letters, or a mix of them together (eg. 'hats' + '!' = hats!). <em> Note: you cannot concatenate a string and a number</em>. Another useful tool is '.find'. By using the equation 'string.find()', it is possible to search for and find a target string within a larger string. If the target string is found, python will output the number of the first position that target string appears within the search string. If the target string is not found, python will output '-1'.
+			</p>
+			<h4>Functions Within Python</h4>
+			<p>
+				Also known as procedures, functions take given input, does a specified job to that input, and then gives output. They work by Input-> Function-> Output. Once you have written a function once, you never have to program it again. This allows for programmers to avoid repitition. Using inputs within the procedures, equations can be programmed to work when printed. If the equation doesn't have a return statement, then the ouput will be 'none'.
+			</p>
+			<h4>If and While</h4>
+			<p>
+				'If' executes when the test expression is true. This is a helpful tool when writing expressions that you may only want to execute under certain conditions. If the conditions you programmed are correct, then the 'if' statement will compute through the function.
+			</p>
+			<p>
+				'While' executes <em>as long as</em> the test expression is true. 'While' can be used to have a test expression compute itself indefinitely, or at least until you program it to stop. A break statement is another helpful tool within Python programming. If you insert a break statement within a 'while' loop, the expression will keep executing the while statement until the break statement is 'True'; then execution will be resumed at the next statement. But as long as the break test is false, the while expression will continue looping.
+			</p>
+			<h4>Lists</h4>
+			<p>
+				Similar to a string, which is a sequence of charactrers, a list is a sequence of values, but it can contain anything! Unlike a string, a list can contain strings, numbers, and even other lists within itself. Lists are helpful becasue they can be changed, or mutated, whereas a string cannot be.
+			</p>
+			<h4>Mutation</h4>
+			<p>
+				Mutation is when elements within a list are changed by indexing (similar to indexing in strings). An example would be: x = ['R','i','c','k']. If we index the string in the '0' spot, and change it to 'S', x[0] = 'S', then x = ['S','i','c','k'].
+			</p>
+			<p>
+				Mutation also allows for more than one variable to refer to the same number or string. In this example, both 'n' and 'a' refer to 3 (until, of course, 1 is added to n). 
+			</p>
+			<p>
+					<br>
+					def inc(n):
+					<br>
+    					n = n+1
+    				<br>                         
+						a = 3  
+					<br>                                 
+					return inc(a)
+			</p>
+			<h4>List Operations</h4>
+			<p>
+				Lists have a few helpful operations that allow for more flexibility within their programming. Two of the operations are very similar, .append and concatenations. The difference exists in what they produce as an outcome. Where .append adds an element to an already existing list (it mutates the <em>old</em> list), concatenating puts two lists together into a <em>new</em> list.
+			</p>
+			<h4>More List Operations</h4>
+			<p>
+				Another list operation is the 'for loop'. This operation acts like a 'while loop', but is more specific. If there were two different lists within a definition, you can specify an element within the first or second list. 
+			</p>
+				If your defined function looked like this:
+			<p>
+				def two_functions(a, b)
+			</p>
+				and your input consisted of two lists like these:
+			<p>
+				print two_functions([1,2], [3, 4])
+			</p>
+				a user can use the for loop to specify either list 'a' or 'b' and which number within it.
+			<p>
+				A tool similar to what we previously learned is '.index'. Just like the '.find' tool, '.index' allows the user to have the computer search within given input, and return the position where the indexed input was first found. The difference is that with '.find', you are searching within a string. With '.index', you are searching within a list.
+			</p>
+			<hr>
+		</div>
+		<h2 class="title"> Stage 3 </h2>
+		<div>
+			<h4>Abstraction/Using Functions</h4>
+			<p>
+				Abstraction is the concept of the user not knowing what happens behind the scenes of the functions being used. Although abstraction might seem annoying or secretive, it is actually helpful to a programmer. Abstraction means that you can focus on the program you are writing, rather than the code that you require in order to write it. 
+			</p>
+			<p>
+				We can read the documentation of any module and its functions if we do need to know what a certain function will do. It is important to be able to read the documentation clearly, so that you can search for functions and be able to use them correctly. You would use these by writing "module.function". So in the case of the function "open" within "webbrowser", we would write "webbrowser.open".
+			</p>
+			<h4>Python Standard Library</h4>
+			<p>
+				There are files, or modules, that alreay exist in Python's programming. An example of one of these modules is "time". "time" has several functions defined inside of it. So if you import "time", you can use any of the functions within it. There are many other modules in Python's standard library that are all avaliable when Python is installed on your computer.
+			</p>
+			<p>
+				Within the modules, a smaller file exists. These are called classes.
+			</p>
+			<h4>Classes</h4>
+			<p>
+				Classes are best explained as blueprints. Classes contain certain information that is defined. From that information, you can create multiple different instances of that class. For example, within the <em>module</em> "turtle"(lowercase t), there is a <em>class</em> called "Turtle"(uppercase T). This is different than how functions work. When you call on a class, you call the function "__init__" which is defined inside the class turtle. It creates space in memory for a new instance or object of the class Turtle. In an example instance, we called a function __init__ within the class turtle, and created "Brad". Brad can now access all of the other methods in the class Turtle, like forward and right. Brad is an instance of the class Turtle, within the module turtle.
+			</p>
+			<h4>Make Classes</h4>
+			<p>
+				We can create our own classes, and functions within them. Making the class, we define the variables that we want it to contain. Then, when we create an instance of that class(like how we made Brad), we put the information that will and can be called by the class we created. When we run the instances, the class's constructor is called, which uses the keyword "self", or the instance in question. "Toy Story" is self, when it is the instance being called. The "__init__" function is called from the class we created, then the variables' correct values are put into the variables of def__init__. Each instance has it's own unique variables, called instance variables. A function that is defined inside a class, and is assosiated with an instance is called an Instance method.
+			</p>
+			<h4>Class Variables</h4>
+			<p>
+				Variables that we want to apply to more than one instance of a class are called class variabes. An example is in our movie website project, where we needed valid ratings for all of the movies. The ratings are not specific to each instance; they apply to all instances of the class Movie. To do this, define a variable "valid ratings", under the class, and outside of the __init__ function. Use all caps for variables that apply to all instances. It would be written like "VALID_RATINGS", and would be applicable to any instance of the class we created.
+			</p>
+			<h4>Inheritance</h4>
+			<p>
+				Inheritance is a way to create a class that has some attributes, and another class that will inherit those attributes. Additionally, the second class can have attributes of its own. This is a good way to have a better program design, less chaotic, and less repetitive. Another helpful tool in Python are prepackaged class variables like __doc__, __name__, and __module__. These are class variables that are already written into Python, so we can access them at any time. 
+			</p>
+			<h4>Python, an OOP Language</h4>
+			<p>
+				Python is an object oriented programming language(OOP), meaning that it is very good at allowing the user to program without much repitition (an important skill in programming). It's code is largely based on classes and objects, which are basically categories within categories, that can use a larger category's programmed variables to describe its own.
+			</p>
+			<p>
+				An <em>object</em> is an important concept for Python. An object is an instance of a class that is a type of class. If we were to have an object, "oak", it could only exist within a larger category, or class, "tree". Class "tree", also exists within the most broad class, "nature". This is where Object-Oriented programming is really helpful. For example, if we were God programming all the plants on Earth, and wanted to avoid repitition in our code (there is a lot of potential to mess up!), we would start with the broadest class, "nature". Inside the nature class, we would program empty variables that would appply to all objects within the class (eg. name, height, lifespan). Then we would  program smaller classes, such as bush, tree and plant. Instances of these classes, for example Oak, Pine, or Weeping Willow, would be the objects of class "tree", of class "nature".
+			</p>
+			<h4>Similarities between OOP and other languages</h4>
+			<p>
+				Both an OOP laguage, such as Python, and other laguages, such as HTML, require a few major keys. When you write code for either program you are writing instructions for the program to interpret. In Python, you are writing programming for the Python Interpreter to convert into instructions that the computer will execute. When using HTML, you are writing your instructions into a program such as Sublime Text to convert into text. In both instances, a program is needed to interpret your instructions and convert them into the result you were attempting.
+			</p>
+			<p>
+				It is important within all languages to refrain from program repitition. In Python, this can be accomplished through 'if' and 'while' loops, 'classes' and 'objects'. To avoid repetition in HTML, instead of styling every element, you can style using classes, id's, and specific selectors. Then you style the HTML in CSS using those repeating elements.
+			</p>
+			<hr>
+		</div>
+	</body>
+</html>
